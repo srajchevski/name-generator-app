@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.row {
+  margin: 120px auto 40px;
+}
+.col {
+  text-align: center;
+}
+
+.btn-outline-pink {
+  color: hotpink;
+  border-color: hotpink;
+  background: transparent;
+}
+.btn-outline-pink:hover {
+  color: #fff;
+  background-color: hotpink;
+}
+
+.card-body {
+  font-size: 18px;
+  letter-spacing: 1.2px;
+  font-weight: 550;
+}
+.card-body.male {
+  color: #007bff;
+}
+.card-body.female {
+  color: hotpink;
+}
